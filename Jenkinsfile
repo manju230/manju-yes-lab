@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://your.git.repo/url.git'
+                git branch: 'develop', url: 'https://github.com/manju230/manju-yes-lab.git'
             }
         }
 
