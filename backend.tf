@@ -1,0 +1,9 @@
+terraform {
+  backend "s3" {
+    bucket       = "terraform-s3-backend-prod-tfstate-us"
+    key          = "vpc-lab/vpc.tfstate"
+    region       = "us-east-1"
+    encrypt      = true
+    use_lockfile = true
+  }
+}
