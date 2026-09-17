@@ -3,7 +3,6 @@ terraform {
     bucket       = "terraform-s3-backend-prod-tfstate-us"
     key          = "vpc-lab/vpc.tfstate"
     region       = "us-east-1"
-    encrypt      = true
-    use_lockfile = true
+    encrypt      = true    
   }
 }
