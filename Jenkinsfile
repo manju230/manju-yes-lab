@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         TF_WORKSPACE = "default"
+        TF_CLI_ARGS = "-no-color"
     }
 
     stages {
